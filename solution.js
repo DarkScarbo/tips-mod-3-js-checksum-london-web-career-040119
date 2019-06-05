@@ -6,7 +6,7 @@ const data = [
   [265, 262, 6206, 2207, 5712]
 ];
 
-function checksum(data) {
+function checksum() {
   rowsArray = data.map(
     rowArray => Math.max(...rowArray) - Math.min(...rowArray)
   );
