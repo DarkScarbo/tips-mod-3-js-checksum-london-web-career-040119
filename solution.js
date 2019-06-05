@@ -12,3 +12,5 @@ function checksum(data) {
   );
   return rowsArray.reduce((a, b) => a + b);
 }
+
+checksum(data);
